@@ -4,6 +4,8 @@ import MarketplaceJSON from "../Marketplace.json";
 import axios from "axios";
 import { useState } from "react";
 import { GetIpfsUrlFromPinata } from "../utils";
+import nftimage from "../assets/cartoon-character-with-handbag-sunglasses.jpg";
+import nftimage1 from "../assets/nft.png";
 
 export default function Marketplace() {
   const sampleData = [
@@ -11,8 +13,7 @@ export default function Marketplace() {
       name: "NFT#1",
       description: "ANTECX's First NFT",
       website: "http://axieinfinity.io",
-      image:
-        "https://gateway.pinata.cloud/ipfs/QmTsRJX7r5gyubjkdmzFrKQhHv74p5wT9LdeF1m3RTqrE5",
+      image: nftimage,
       price: "0.03ETH",
       currentlySelling: "True",
       address: "0xe81Bf5A757CB4f7F82a2F23b1e59bE45c33c5b13",
@@ -21,8 +22,7 @@ export default function Marketplace() {
       name: "NFT#2",
       description: "ANDTECX's Second NFT",
       website: "http://axieinfinity.io",
-      image:
-        "https://gateway.pinata.cloud/ipfs/QmdhoL9K8my2vi3fej97foiqGmJ389SMs55oC5EdkrxF2M",
+      image: nftimage1,
       price: "0.03ETH",
       currentlySelling: "True",
       address: "0xe81Bf5A757C4f7F82a2F23b1e59bE45c33c5b13",

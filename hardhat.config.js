@@ -27,10 +27,10 @@ module.exports = {
       url: `https://polygon-mainnet.infura.io/v3/${infuraId}`,
       accounts: [privateKey],
     },
-    // goerli: {
-    //   url: process.env.REACT_APP_ALCHEMY_API_URL,
-    //   accounts: [process.env.REACT_APP_PRIVATE_KEY],
-    // },
+    goerli: {
+      url: "https://goerli.infura.io/v3/9dbca744123c47318eb3569869fbd48e",
+      accounts: [privateKey],
+    },
   },
   solidity: {
     version: "0.8.4",
