@@ -6,6 +6,9 @@ import { useState } from "react";
 import { GetIpfsUrlFromPinata } from "../utils";
 import nftimage from "../assets/cartoon-character-with-handbag-sunglasses.jpg";
 import nftimage1 from "../assets/nft.png";
+import nftimage2 from "../assets/7711244.jpg";
+import nftimage3 from "../assets/7736810.jpg";
+import nftimage4 from "../assets/43YAWLITTZJLZIQTCP2JSS4KSM.jpg";
 
 export default function Marketplace() {
   const sampleData = [
@@ -31,8 +34,34 @@ export default function Marketplace() {
       name: "NFT#3",
       description: "ANDTECX's Third NFT",
       website: "http://axieinfinity.io",
-      image:
-        "https://gateway.pinata.cloud/ipfs/QmTsRJX7r5gyubjkdmzFrKQhHv74p5wT9LdeF1m3RTqrE5",
+      image: nftimage2,
+      price: "0.03ETH",
+      currentlySelling: "True",
+      address: "0xe81Bf5A757C4f7F82a2F23b1e59bE45c33c5b13",
+    },
+    {
+      name: "NFT#4",
+      description: "ANDTECX's Third NFT",
+      website: "http://axieinfinity.io",
+      image: nftimage3,
+      price: "0.03ETH",
+      currentlySelling: "True",
+      address: "0xe81Bf5A757C4f7F82a2F23b1e59bE45c33c5b13",
+    },
+    {
+      name: "NFT#5",
+      description: "ANDTECX's Third NFT",
+      website: "http://axieinfinity.io",
+      image: nftimage4,
+      price: "0.03ETH",
+      currentlySelling: "True",
+      address: "0xe81Bf5A757C4f7F82a2F23b1e59bE45c33c5b13",
+    },
+    {
+      name: "NFT#5",
+      description: "ANDTECX's Third NFT",
+      website: "http://axieinfinity.io",
+      image: nftimage4,
       price: "0.03ETH",
       currentlySelling: "True",
       address: "0xe81Bf5A757C4f7F82a2F23b1e59bE45c33c5b13",

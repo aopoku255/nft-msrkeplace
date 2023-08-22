@@ -31,6 +31,10 @@ module.exports = {
       url: "https://goerli.infura.io/v3/9dbca744123c47318eb3569869fbd48e",
       accounts: [privateKey],
     },
+    localhost: {
+      url: "http://127.0.0.1:8545",
+      accounts: [privateKey],
+    },
   },
   solidity: {
     version: "0.8.4",
